@@ -2,13 +2,13 @@ var readlineSync = require('readline-sync');
 const chalk = require('chalk');
 
 questionOne = {
-  question: "Who is my favorite superhero?\n1. Thor\n2. Iron Man\n3. Hulk\n",
-  answer: 1
+  question: "Who is Tony Stark?\n1. Thor\n2. Iron Man\n3. Hulk\n",
+  answer: 2
 }
 
 questionTwo = {
-  question: "Who is my favorite singer?\n1. Hariharan\n2. AR Rehman\n3. Suresh Wadekar\n4. All of the above\n",
-  answer: 4
+  question: "What Tony stark said to his daughter once?\n1. love you 1000\n2. love you 2000\n3. love you 3000\n4. love you 4000\n",
+  answer: 3
 }
 
 var quesList = [questionOne, questionTwo];
